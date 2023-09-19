@@ -5,11 +5,13 @@ import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 
 import com.course.course.entities.User;
 import com.course.course.repository.UserRepository;
 
 @Configuration
+@Profile("test") 
 public class TestConfig implements CommandLineRunner{
   
   @Autowired
