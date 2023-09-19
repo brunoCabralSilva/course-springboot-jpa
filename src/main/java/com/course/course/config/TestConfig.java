@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import com.course.course.UserRepository;
 import com.course.course.entities.User;
+import com.course.course.repository.UserRepository;
 
 @Configuration
 public class TestConfig implements CommandLineRunner{
